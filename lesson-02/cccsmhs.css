@@ -1,0 +1,109 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+		margin: 10 20;
+		color:#333;}
+		
+
+h1 {font-size:36px;}
+
+hgroup {background:#CCC; padding:10px;}
+
+
+
+/*MAINNAV STYLES - begin------------------------------------------*/
+
+
+.mainnav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	width: 150px;
+	border-bottom: 1px solid #666;
+	float:left;
+	}
+	
+.mainnav ul li {
+	position: relative;
+	}
+
+.mainnav li ul {
+	position: absolute;
+	left: 149px;
+	top: 0;
+	display: none;
+	}
+.mainnav ul li a {
+	display: block;
+	text-decoration: none;
+	color: #CCC;
+	background: #666;
+	padding: 5px;
+	border: 1px solid #666;
+	border-bottom: 0;
+	}	
+	
+
+
+/* Fix IE. Hide from IE Mac \*/
+* html ul li { float: left; height: 1%; }
+* html ul li a { height: 1%; }
+/* End */
+
+/* causes sub menu to display when I hover over main menu  */
+.mainnav li:hover ul, li.over ul { display: block; }
+
+/* Hover Styles */
+.mainnav ul li a:hover, li ul li a  { color: #fff; background: #333; } 
+
+/* Sub Menu Styles */		
+.mainnav li ul li a { padding: 3px 3px; border-bottom: 1px solid #abc287;  font-size:.75em; } 
+
+/*MAIN NAVBAR STYLS- end----------------------------------------*/
+
+
+/* TOP NAVBAR - starts------------------------------------------*/
+#topnav {
+	width:100%; 	/* makes the div full width */
+	float:left; /*makes the div enclose the list */
+	border-top:1px solid #069;	/* draws line on top edge of div */
+	border-bottom:1px solid #069;	 /* draws line on bottom edge of div */
+	font-size:.8em;	/* SET FONT-SIZE HERE */
+	background-color:#69F; /* colors the div */
+	margin-left:0px;
+	}
+#topnav ul {margin:0 0 0 750px;/* indents ul from edge of container */
+	}
+#topnav li {
+	float:left;	/* causes the list to align horizontally instead of stack */
+	list-style-type:none;	/* removes the bullet off each list item */
+	background-color:#333; /*sets the background of the menu items */
+	border-right:1px solid #069; /* creates dividing lines between the li elements */
+	}
+#topnav li:first-child {
+	border-left:1px solid #069; /*the first vertical line on the menu */
+	}
+#topnav li:hover { 
+	background-color:#FFF; /*sets the background of the menu items */
+	}
+#topnav a {
+    padding:0 6px; /*creates space each side of menu item's text */
+	text-decoration:none;	 /* removes the underlining of the link */
+	color:#CCC;	/* sets the type color */
+	}
+#topnav a:hover {
+	color:#39F;
+	}
+/* the horizontal menu ends here */
+/* TOP NAVBAR END-------------------------------------------------*/
+
+.content {margin-left:200px;
+			margin-top:100px;}
+
+
+
+
+
+
+
