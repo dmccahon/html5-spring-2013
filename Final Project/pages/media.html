@@ -1,0 +1,123 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<link href="../css/bootstrap.css" rel="stylesheet">
+<!--Start iPhone-->
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+<link media="only screen and (max-device-width: 480px)" href="../css/bootstrap-iphone.css" type= "text/css" rel="stylesheet" />
+<link rel="apple-touch-icon"
+      href="img/appicon.png" />
+<link rel="apple-touch-icon-precomposed"
+      href="img/appicon.png" />
+<!--End iPhone-->
+<title>Media</title>
+<!--[if lt IE 9]>
+  <script>
+    document.createElement("header" );
+    document.createElement("footer" );
+    document.createElement("section");
+    document.createElement("aside"  );
+    document.createElement("nav"    );
+    document.createElement("article");
+    document.createElement("hgroup" ); 
+    document.createElement("time"   );
+  </script>
+  <noscript>
+     <strong>Warning !</strong>
+     Because your browser does not support HTML5, some elements are simulated using JScript.
+     Unfortunately your browser has disabled scripting. Please enable it in order to display this page.
+  </noscript>
+<![endif]-->
+<style type="text/css">
+body {
+  background-color:#F90;
+}
+#content {
+  background-color:#FFF;
+  border-radius:5px;
+}
+#content .main {
+  padding:20px;
+}
+#content .sidebar {
+  padding:10px;
+}
+#content p {
+  line-height:30px;
+}
+</style>
+</head>
+
+<body>
+<div class='container'>
+<h1>HTML 5 Final - Media</h1>
+<div class='navbar navbar-inverse'>
+<div class='navbar-inner nav-collapse' style="height: auto;">
+<ul class="nav">
+<li><a href="../index.html">Home</a></li>
+<li><a href="family.html">Family</a></li>
+<li class="active"><a href="media.html">Media</a></li>
+<li><a href="about.html">About</a></li></ul>
+</div>
+</div>
+<div id='content' class='row-fluid'>
+<div class='span9 main'>
+<h2>Media and More</h2>
+<section class="hidden-desktop">
+<h3>Photo Links</h3>
+<p>Below are some links to various family photos.</p>
+<ul class="nav nav-tabs nav-stacked">
+<li><a href="../img/photos/1.jpg">Snow</a></li>
+<li><a href="../img/photos/2.jpg">Cabela</a></li>
+<li><a href="../img/photos/3.jpg">Pumpkins</a></li>
+<li><a href="../img/photos/4.jpg">Fish</a></li>
+</ul>
+</section>
+<section id="familyPhotos" class="hidden-phone">
+<p>Below is a short slideshow that was made using jQuery and Canvas.  The slideshow contains various family photos.</p>
+<div id="slideshow">
+<ul class="slides">
+<li><img src="../img/photos/1.jpg" width="620" height="320" alt="Mom and Bro" /></li>
+<li><img src="../img/photos/2.jpg" width="620" height="320" alt="Cabela" /></li>
+<li><img src="../img/photos/3.jpg" width="620" height="320" alt="Pumpkins" /></li>
+<li><img src="../img/photos/4.jpg" width="620" height="320" alt="Our Fish" /></li>
+</ul>
+</div>
+<div id="mediaControls">
+<aside>
+<p>Slideshow Controls</p>
+<ul>
+<li><button class="arrow previous">Back</button></li>
+<li><button class="arrow next">Next</button></li>
+</ul>
+</aside>
+</div>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+<script src="../scripts/slideshowScript.js"></script>
+</section>
+</div>
+<div class='span3 sidebar'>
+<h2>Social Networks:</h2>
+<p>Here you will find some links to other photos/videos of our family members/gatherings.  They are not properly sorted/uploaded just yet, but I will improve this over time.  Please message me with your dropbox email for a shared invitation to upload your photos.</p>
+<ul class="nav nav-tabs nav-stacked">
+<li><a href='https://twitter.com/dmccahon'>My Twitter</a></li>
+<li><a href='http://www.flickr.com/photos/davidmccahon/'>Flickr Photos</a></li>
+<li><a href='mailto:mccahon@ymail.com?subject=Dropbox%20Invite&body=Please%20send%20an%20invite%20to%3a'>Dropbox Invitation</a></li>
+</ul>
+<aside class="center">
+<a href="https://www.youtube.com/channel/UCvWJOZXbHEdGJhb5R-SXLHw"><img src="../img/youtube.png" height="128" width="128" alt="youtube"/></a>
+<h6>My YouTube</h6>
+</aside>
+</div>
+</div>
+<footer>
+<p>&copy; David McCahon 2013</p>
+<p><a href="../index.html">Home</a> - <a href="family.html">Family</a> - <a href="media.html">Media</a> - <a href="about.html">About</a> - <a href="project.html">Project</a></p>
+<p><a href="http://validator.w3.org/check?uri=referer"><img
+src="http://www.insideskills.com/classes/grafix/valid-html5-blue.gif"
+alt="Valid HTML 5" height="31" width="88" /></a></p>
+</footer>
+</div>
+</body>
+</html>

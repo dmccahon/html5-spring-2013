@@ -1,0 +1,125 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<link href="../css/bootstrap.css" rel="stylesheet">
+<!--Start iPhone-->
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+<link media="only screen and (max-device-width: 480px)" href="../css/bootstrap-iphone.css" type= "text/css" rel="stylesheet" />
+<link rel="apple-touch-icon"
+      href="img/appicon.png" />
+<link rel="apple-touch-icon-precomposed"
+      href="img/appicon.png" />
+<!--End iPhone-->
+<title>About</title>
+<!--[if lt IE 9]>
+  <script>
+    document.createElement("header" );
+    document.createElement("footer" );
+    document.createElement("section");
+    document.createElement("aside"  );
+    document.createElement("nav"    );
+    document.createElement("article");
+    document.createElement("hgroup" ); 
+    document.createElement("time"   );
+  </script>
+  <noscript>
+     <strong>Warning !</strong>
+     Because your browser does not support HTML5, some elements are simulated using JScript.
+     Unfortunately your browser has disabled scripting. Please enable it in order to display this page.
+  </noscript>
+<![endif]-->
+<style type="text/css">
+body {
+  background-color:#F90;
+}
+#content {
+  background-color:#FFF;
+  border-radius:5px;
+}
+#content .main {
+  padding:20px;
+}
+#content .sidebar {
+  padding:10px;
+}
+#content p {
+  line-height:30px;
+}
+</style>
+</head>
+
+<body>
+<div class='container'>
+<h1>HTML 5 Final - About</h1>
+<div class='navbar navbar-inverse'>
+<div class='navbar-inner nav-collapse' style="height: auto;">
+<ul class="nav">
+<li><a href="../index.html">Home</a></li>
+<li><a href="family.html">Family</a></li>
+<li><a href="media.html">Media</a></li>
+<li class="active"><a href="about.html">About</a></li></ul>
+</div>
+</div>
+<div id='content' class='row-fluid'>
+<div class='span9 main'>
+<h2>Site Designed by David McCahon</h2>
+<p>I have taken various classes in the Computer Studies field at SRJC.  I have a passion for web design, and have made quite a few sites since starting at SRJC.  I have designed sites for a few family members to use for hosting their media and social media links.  I am excited to get into HTML5 and CSS3 as there is so much to learn.  I also have a passion for gaming and hope to use my skills to develop a simple game that could be hosted on my family website one day.</p>
+<p>Take a look over, below if you are on a mobile device, at the sidebar to see some of the training I have received.  Clicking on an item in the list will link you to an informational page on the subject.</p>
+<p class="transition hidden-desktop"><a href="mailto:dmccahon@bearcubs.santarosa.edu">Contact Me</a></p>
+<form class="contact_form hidden-phone" name="contact_form" method="post" action= "http://www.santarosa.edu/cgi-bin/misc/formmail.pl">
+<input name="recipient" id="recipient" type="hidden" value="dmccahon@bearcubs.santarosa.edu" />
+<input type="hidden" name="subject" value="Final Form" />
+<input type="hidden" name="required" value="name, email, message" />
+<ul>
+<li>
+<h2>Contact Me</h2>
+<span class="required_notification">* Denotes Required Field</span>
+</li>
+<li>
+<label for="name">Name:</label>
+<input type="text" name="name" id="name"  placeholder="Full Name" required />
+</li>
+<li>
+<label for="email">Email:</label>
+<input type="email" name="email" id="email" placeholder="Email" required />
+<span class="form_hint">Proper format "youremail@example.com"</span>
+</li>
+<li>
+<label for="message">Comments:</label>
+<textarea name="message" id="message" cols="40" rows="6" required ></textarea>
+</li>
+<li>
+<button class="submit" type="submit" value="Submit Request">Submit Form</button>
+</li>
+</ul>
+</form>
+</div>
+<div class='span3 sidebar'>
+<h2>My Experience:</h2>
+<ul class="nav nav-tabs nav-stacked">
+<li><a href="https://en.wikipedia.org/wiki/HTML">HTML &amp; CSS 1&amp;2</a></li>
+<li><a href="http://www.w3schools.com/css/">CSS</a></li>
+<li><a href="http://www.w3schools.com/html/html5_intro.asp">HTML5</a></li>
+<li><a href="#">Web Design CSS and Graphics</a></li>
+<li><a href="#">Principles of Screen Design</a></li>
+<li><a href="#">Web Content Development</a></li>
+<li><a href="http://www.adobe.com/products/dreamweaver.html">Adobe Dreamweaver</a></li>
+<li><a href="http://www.adobe.com/products/flash.html">Adobe Flash</a></li>
+<li><a href="http://www.adobe.com/products/photoshop.html">Adobe Photoshop 1&amp;2</a></li>
+<li><a href="http://www.adobe.com/products/indesign.html">Adobe InDesign</a></li>
+<li><a href="http://www.adobe.com/products/illustrator.html">Adobe Illustrator</a></li>
+<li><a href="http://www.cplusplus.com/doc/tutorial/">Intro to Programming</a></li>
+</ul>
+</div>
+</div>
+<footer>
+<p>&copy; David McCahon 2013</p>
+<p><a href="../index.html">Home</a> - <a href="family.html">Family</a> - <a href="media.html">Media</a> - <a href="about.html">About</a> - <a href="project.html">Project</a></p>
+<p><a href="http://validator.w3.org/check?uri=referer"><img
+src="http://www.insideskills.com/classes/grafix/valid-html5-blue.gif"
+alt="Valid HTML 5" height="31" width="88" /></a></p>
+</footer>
+</div>
+</body>
+</html>
